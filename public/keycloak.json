@@ -1,7 +1,7 @@
 {
-  "realm": "demo",
-  "auth-server-url": "http://localhost:8080/auth",
+  "realm": "challenge",
+  "auth-server-url": "https://g8h9.com/auth",
   "ssl-required": "external",
-  "resource": "bookBox",
+  "resource": "react-app",
   "public-client": true
 }
