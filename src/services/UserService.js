@@ -12,6 +12,7 @@ const initKeycloak = (onAuthenticatedCallback) => {
     onLoad: 'check-sso',
     silentCheckSsoRedirectUri: window.location.origin + '/silent-check-sso.html',
     pkceMethod: 'S256',
+    redirectUri: 'exp://10.120.105.67:19000'
   })
     .then((authenticated) => {
       // if (authenticated) {

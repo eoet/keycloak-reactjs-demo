@@ -1,7 +1,8 @@
 {
   "realm": "challenge",
-  "auth-server-url": "https://g8h9.com/auth",
+  "auth-server-url": "https://endofeighty.com/auth",
   "ssl-required": "external",
   "resource": "react-app",
-  "public-client": true
+  "public-client": true,
+  "redirect_uri": "exp://10.120.105.67:19000/"
 }
