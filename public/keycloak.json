@@ -1,7 +1,8 @@
 {
-  "realm": "demo",
-  "auth-server-url": "http://localhost:8080/auth",
+  "realm": "challenge",
+  "auth-server-url": "https://endofeighty.com/auth",
   "ssl-required": "external",
-  "resource": "bookBox",
-  "public-client": true
+  "resource": "react-app",
+  "public-client": true,
+  "confidential-port": 443
 }
